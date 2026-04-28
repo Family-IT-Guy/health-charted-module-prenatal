@@ -1,0 +1,22 @@
+{
+  "_type": "health-charted/prenatal-profile",
+  "current_phase": null,
+  "phase_set_date": null,
+  "conception_date": null,
+  "lmp_date": null,
+  "due_date": null,
+  "gestational_age_weeks": null,
+  "gravidity": null,
+  "parity": null,
+  "prior_pregnancy_outcomes": [],
+  "dietary_pattern": null,
+  "genetic_variants": [],
+  "breastfeeding": {
+    "status": null,
+    "start_date": null,
+    "end_date": null,
+    "supply_concerns": null
+  },
+  "phase_transition_log": [],
+  "notes": null
+}

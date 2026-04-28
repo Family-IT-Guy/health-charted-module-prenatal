@@ -1,0 +1,131 @@
+{
+  "name": "prenatal",
+  "version": "0.1.0",
+  "namespace": "prenatal",
+  "description": "Pregnancy and lactation domain knowledge: nutrient biochemistry, lab interpretation in pregnancy context, phase-distinct supplementation, biological windows, postpartum recovery.",
+  "license": "CC-BY-NC-SA-4.0",
+  "requires_hc_min_version": "1.9.0",
+  "author": {
+    "name": "Family-IT-Guy",
+    "url": "https://github.com/Family-IT-Guy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Family-IT-Guy/health-charted-module-prenatal.git"
+  },
+  "domain_triggers": "Pregnancy planning, conception, gestational age, prenatal vitamins, fetal development, prenatal labs (ferritin/TSH/RBC folate/etc. in pregnancy context), morning sickness, gestational diabetes, postpartum, breastfeeding, lactation, milk supply.",
+  "salience_hints": "User data showing conception_date, due_date, gestational_age_weeks, current_phase from prenatal-profile.json. Lab markers measured during a known pregnancy. Symptoms appearing in a documented pregnancy phase.",
+  "guides": [
+    {
+      "file": "guides/phase-management.md",
+      "trigger": "When the user reports a phase change, asks what changes between phases, or current_phase needs evaluation against gestational_age_weeks"
+    },
+    {
+      "file": "guides/lab-interpretation.md",
+      "trigger": "When interpreting any lab result during pregnancy or lactation. Pregnancy optimal ranges differ from standard population ranges and shift by trimester."
+    },
+    {
+      "file": "guides/supplement-evaluation.md",
+      "trigger": "When evaluating supplements (form, dose, timing, interactions) for pregnancy or lactation context"
+    }
+  ],
+  "submodules": [
+    {
+      "namespace": "preconception",
+      "version": "0.1.0",
+      "description": "12 weeks before conception through conception. Folate adequacy, MTHFR-aware repletion, iron status normalization, baseline labs.",
+      "domain_triggers": "Trying to conceive, preconception planning, fertility-adjacent nutrition, MTHFR genotype, baseline-before-pregnancy labs.",
+      "salience_hints": "current_phase = preconception. User mentions trying to conceive, planning pregnancy, or pre-conception nutrition.",
+      "intake_questions": [
+        "How long have you been trying to conceive?",
+        "Have you had MTHFR testing? If so, which variants?",
+        "What's your current ferritin? Last lab date?",
+        "Are you on a prenatal already, or planning to start?"
+      ],
+      "covers_entities": ["preconception-folate-window", "mthfr-c677t", "mthfr-a1298c", "baseline-iron-panel", "preconception-tsh-target"],
+      "submodules": []
+    },
+    {
+      "namespace": "trimester-1",
+      "version": "0.1.0",
+      "description": "Weeks 0-13 gestational age. Neural tube closure (days 22-28), early organogenesis, B vitamin demand, first-trimester nausea management, first prenatal labs.",
+      "domain_triggers": "First trimester, weeks 1-13, neural tube, morning sickness, nausea/vomiting in pregnancy, NIPT timing, first prenatal panel.",
+      "salience_hints": "current_phase = trimester-1 OR gestational_age_weeks 0-13.",
+      "intake_questions": [
+        "What's your current gestational age (weeks)?",
+        "Are you taking a prenatal? Which one?",
+        "Any nausea or food aversions affecting nutrition?"
+      ],
+      "covers_entities": ["neural-tube-closure-window", "first-trimester-nausea", "first-trimester-labs", "early-organogenesis-nutrient-demand"],
+      "guides": [
+        {
+          "file": "guides/trimester-1-nausea-management.md",
+          "trigger": "When the user reports nausea, vomiting, or food aversion in T1, or when supplement intolerance is noted in trimester-1"
+        }
+      ],
+      "submodules": []
+    },
+    {
+      "namespace": "trimester-2",
+      "version": "0.1.0",
+      "description": "Weeks 14-27 gestational age. Iron demand acceleration, anatomy scan window, GDM screening (24-28 weeks), DHA accretion ramp, second-trimester nutrient targets.",
+      "domain_triggers": "Second trimester, weeks 14-27, anatomy scan, gestational diabetes, GDM screening, glucose tolerance, mid-pregnancy labs.",
+      "salience_hints": "current_phase = trimester-2 OR gestational_age_weeks 14-27.",
+      "intake_questions": [
+        "Have you had your anatomy scan yet? Any findings?",
+        "When is GDM screening scheduled?",
+        "How are your iron labs trending?"
+      ],
+      "covers_entities": ["gdm-screening-window", "iron-demand-T2", "anatomy-scan-context", "T2-supplement-adjustments"],
+      "submodules": []
+    },
+    {
+      "namespace": "trimester-3",
+      "version": "0.1.0",
+      "description": "Weeks 28-birth. Fetal iron store building, DHA accretion peak (35-40 weeks), late-pregnancy labs, GBS screening, birth-prep nutrition, third-trimester risk windows.",
+      "domain_triggers": "Third trimester, weeks 28+, fetal iron stores, DHA peak, GBS testing, pre-eclampsia monitoring, late-pregnancy labs, birth prep.",
+      "salience_hints": "current_phase = trimester-3 OR gestational_age_weeks 28+.",
+      "intake_questions": [
+        "How are your blood pressure readings?",
+        "Has GBS screening happened?",
+        "What's your DHA/omega-3 supplementation looking like?"
+      ],
+      "covers_entities": ["fetal-iron-store-window", "dha-accretion-peak", "gbs-screening-window", "preeclampsia-markers", "T3-iron-targets"],
+      "submodules": []
+    },
+    {
+      "namespace": "postpartum",
+      "version": "0.1.0",
+      "description": "Birth through ~12 weeks postpartum. Maternal depletion patterns, recovery nutrition, hemoglobin normalization, mood and mental health, sleep deprivation effects.",
+      "domain_triggers": "Postpartum, post-birth, fourth trimester, postpartum depression, postpartum anxiety, recovery nutrition, hemoglobin recovery.",
+      "salience_hints": "current_phase = postpartum OR within 12 weeks of due_date with delivery confirmed.",
+      "intake_questions": [
+        "How is your sleep currently?",
+        "Any signs of mood changes that concern you?",
+        "What's your iron status at this point?"
+      ],
+      "covers_entities": ["maternal-depletion-syndrome", "postpartum-mood-markers", "hemoglobin-recovery-window", "postpartum-thyroiditis", "fourth-trimester-nutrition"],
+      "guides": [
+        {
+          "file": "guides/postpartum-mood-monitoring.md",
+          "trigger": "When the user is in the postpartum or lactation phase and mood, mental health, or recovery-related concerns surface"
+        }
+      ],
+      "submodules": []
+    },
+    {
+      "namespace": "lactation",
+      "version": "0.1.0",
+      "description": "Active breastfeeding. Group I vs Group II nutrient classification, milk supply, lactation-specific supplementation (D, choline, omega-3), maternal repletion priorities, return-to-fertility timing.",
+      "domain_triggers": "Breastfeeding, lactation, milk supply, low supply, oversupply, Group I nutrients, vitamin D for nursing infant, postpartum supplements while nursing.",
+      "salience_hints": "current_phase = lactation OR breastfeeding noted in profile.",
+      "intake_questions": [
+        "Exclusively breastfeeding, mixed feeding, or weaning?",
+        "Any concerns about milk supply?",
+        "Are you taking vitamin D? At what dose?"
+      ],
+      "covers_entities": ["breast-milk-group-i-nutrients", "breast-milk-group-ii-nutrients", "lactation-vitamin-d-evidence", "milk-supply-physiology", "lactational-amenorrhea"],
+      "submodules": []
+    }
+  ]
+}

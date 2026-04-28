@@ -1,0 +1,1159 @@
+{
+  "_type": "health-charted/wiki-index",
+  "entries": [
+    {
+      "file": "entities/biological_window/dha-accretion-peak-window.md",
+      "canonical_name": "dha-accretion-peak-window",
+      "entity_kind": "biological_window",
+      "submodule_path": "prenatal:trimester-3",
+      "summary": "Weeks 35-40 DHA accretion peak. Maternal intake \u2192 fetal neural development.",
+      "cross_refs": [
+        "omega-3-dha"
+      ]
+    },
+    {
+      "file": "entities/biological_window/fetal-iron-store-window.md",
+      "canonical_name": "fetal-iron-store-window",
+      "entity_kind": "biological_window",
+      "submodule_path": "prenatal:trimester-3",
+      "summary": "T3 fetal iron-store accumulation. Determines infant iron status for first 4-6 months.",
+      "cross_refs": [
+        "iron",
+        "ferritin",
+        "hemoglobin",
+        "placental-iron-prioritization"
+      ]
+    },
+    {
+      "file": "entities/biological_window/gdm-screening-window.md",
+      "canonical_name": "gdm-screening-window",
+      "entity_kind": "biological_window",
+      "submodule_path": "prenatal:trimester-2",
+      "aliases": [
+        "glucose tolerance test window"
+      ],
+      "summary": "Weeks 24-28 GDM screening. Catches glucose intolerance before fetal complications.",
+      "cross_refs": [
+        "gestational-diabetes-mellitus",
+        "fasting-glucose",
+        "hba1c"
+      ]
+    },
+    {
+      "file": "entities/biological_window/neural-tube-closure-window.md",
+      "canonical_name": "neural-tube-closure-window",
+      "entity_kind": "biological_window",
+      "submodule_path": "prenatal:trimester-1",
+      "aliases": [
+        "NTC window",
+        "days 22-28"
+      ],
+      "summary": "Days 22-28 of gestation. Folate adequacy at this window determines NTD risk. RBC folate >1050 nmol/L is the prevention threshold; reaching it requires ~20 weeks of intake.",
+      "cross_refs": [
+        "folate",
+        "rbc-folate",
+        "mthfr-c677t",
+        "mthfr-a1298c",
+        "preconception:preconception-folate-window"
+      ]
+    },
+    {
+      "file": "entities/biological_window/preconception-folate-window.md",
+      "canonical_name": "preconception-folate-window",
+      "entity_kind": "biological_window",
+      "submodule_path": "prenatal:preconception",
+      "summary": "20-week pre-conception folate-loading window. RBC folate kinetics force start 5-6 months before trying.",
+      "cross_refs": [
+        "folate",
+        "rbc-folate",
+        "trimester-1:neural-tube-closure-window"
+      ]
+    },
+    {
+      "file": "entities/condition/gestational-diabetes-mellitus.md",
+      "canonical_name": "gestational-diabetes-mellitus",
+      "entity_kind": "condition",
+      "submodule_path": "prenatal:trimester-2",
+      "aliases": [
+        "GDM"
+      ],
+      "summary": "Pregnancy-onset glucose intolerance. Screened 24-28 weeks; recurrence risk in subsequent pregnancies.",
+      "cross_refs": [
+        "fasting-glucose",
+        "hba1c",
+        "gdm-screening-window"
+      ]
+    },
+    {
+      "file": "entities/condition/postpartum-depression.md",
+      "canonical_name": "postpartum-depression",
+      "entity_kind": "condition",
+      "submodule_path": "prenatal:postpartum",
+      "aliases": [
+        "PPD"
+      ],
+      "summary": "Postpartum mood disorder. Iron, vitamin D, EPA all have evidence for risk modulation.",
+      "cross_refs": [
+        "ferritin",
+        "25-oh-vitamin-d",
+        "omega-3-epa",
+        "postpartum:postpartum-thyroiditis"
+      ]
+    },
+    {
+      "file": "entities/condition/postpartum-thyroiditis.md",
+      "canonical_name": "postpartum-thyroiditis",
+      "entity_kind": "condition",
+      "submodule_path": "prenatal:postpartum",
+      "aliases": [
+        "PPT"
+      ],
+      "summary": "Autoimmune-driven thyroid dysfunction in ~8% postpartum. Biphasic course; 30% develop permanent hypothyroidism. Selenium reduces incidence in TPO+ women.",
+      "cross_refs": [
+        "tsh",
+        "free-t4",
+        "tpo-antibodies",
+        "selenium",
+        "postpartum:postpartum-depression",
+        "free-t3",
+        "thyroid-autoimmunity-and-pregnancy"
+      ]
+    },
+    {
+      "file": "entities/condition/preeclampsia.md",
+      "canonical_name": "preeclampsia",
+      "entity_kind": "condition",
+      "submodule_path": "prenatal",
+      "summary": "Hypertensive pregnancy disorder. Vitamin D deficiency and low-calcium intake elevate risk.",
+      "cross_refs": [
+        "25-oh-vitamin-d",
+        "calcium",
+        "vitamin-d"
+      ]
+    },
+    {
+      "file": "entities/genetic_variant/hfe-genotype.md",
+      "canonical_name": "hfe-genotype",
+      "entity_kind": "genetic_variant",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "hemochromatosis genotype",
+        "C282Y",
+        "H63D"
+      ],
+      "summary": "Hemochromatosis variants. Avoid routine iron supplementation in carriers/homozygotes.",
+      "cross_refs": [
+        "iron",
+        "ferritin",
+        "transferrin-saturation",
+        "iron-panel-interpretation"
+      ]
+    },
+    {
+      "file": "entities/genetic_variant/mthfr-a1298c.md",
+      "canonical_name": "mthfr-a1298c",
+      "entity_kind": "genetic_variant",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "MTHFR 1298",
+        "A1298C",
+        "rs1801131"
+      ],
+      "summary": "Second MTHFR SNP. Lower individual impact than C677T; matters most in compound heterozygotes.",
+      "cross_refs": [
+        "folate",
+        "mthfr-c677t",
+        "homocysteine",
+        "one-carbon-metabolism-cycle",
+        "trimester-1:neural-tube-closure-window"
+      ]
+    },
+    {
+      "file": "entities/genetic_variant/mthfr-c677t.md",
+      "canonical_name": "mthfr-c677t",
+      "entity_kind": "genetic_variant",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "MTHFR 677",
+        "C677T",
+        "rs1801133"
+      ],
+      "summary": "SNP affecting MTHFR enzyme activity. TT genotype reduces activity to ~30% of wild-type. Methylfolate bypasses the impaired step.",
+      "cross_refs": [
+        "folate",
+        "mthfr-a1298c",
+        "homocysteine",
+        "one-carbon-metabolism-cycle",
+        "trimester-1:neural-tube-closure-window"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/25-oh-vitamin-d.md",
+      "canonical_name": "25-oh-vitamin-d",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "25(OH)D",
+        "calcidiol",
+        "vitamin D level"
+      ],
+      "summary": "Vitamin D storage form. Pregnancy-optimal 40-60 ng/mL.",
+      "cross_refs": [
+        "vitamin-d",
+        "lactation:lactation-vitamin-d-evidence",
+        "preeclampsia",
+        "postpartum:postpartum-depression",
+        "pregnancy-optimal-vs-standard-ranges"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/fasting-glucose.md",
+      "canonical_name": "fasting-glucose",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "summary": "Fasting plasma glucose. <100 optimal; complements GDM screening.",
+      "cross_refs": [
+        "hba1c",
+        "gestational-diabetes-mellitus",
+        "trimester-2:gdm-screening-window"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/ferritin.md",
+      "canonical_name": "ferritin",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "serum ferritin"
+      ],
+      "summary": "Iron-storage protein. Pregnancy-optimal 50-100 mcg/L (min 30); standard ranges miss most depletion. Acute-phase reactant \u2014 distorted by inflammation.",
+      "cross_refs": [
+        "iron",
+        "transferrin-saturation",
+        "hemoglobin",
+        "ferritin-acute-phase-reactant-caveat",
+        "iron-panel-interpretation",
+        "trimester-3:fetal-iron-store-window",
+        "hfe-genotype",
+        "iron-calcium-interaction",
+        "iron-oxidative-stress-mechanism",
+        "iron-vitamin-c-synergy",
+        "postpartum:maternal-depletion-syndrome",
+        "placental-iron-prioritization",
+        "postpartum:postpartum-depression",
+        "pregnancy-optimal-vs-standard-ranges"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/free-t3.md",
+      "canonical_name": "free-t3",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "fT3"
+      ],
+      "summary": "Lab marker. Free (unbound) triiodothyronine; the most metabolically active thyroid hormone fraction. Pregnancy-optimal 2.3-4.2 pg/mL. Useful when TSH is borderline or when investigating T4-to-T3 conversion adequacy (relevant in selenium deficiency or with deiodinase polymorphisms).",
+      "cross_refs": [
+        "tsh",
+        "free-t4",
+        "selenium",
+        "postpartum:postpartum-thyroiditis"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/free-t4.md",
+      "canonical_name": "free-t4",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "fT4"
+      ],
+      "summary": "Bioactive thyroxine. Tracks T1 decline; confirms TSH interpretation.",
+      "cross_refs": [
+        "tsh",
+        "free-t3",
+        "tpo-antibodies",
+        "postpartum:postpartum-thyroiditis",
+        "thyroid-autoimmunity-and-pregnancy"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/hba1c.md",
+      "canonical_name": "hba1c",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "A1C",
+        "glycated hemoglobin"
+      ],
+      "summary": "Three-month glucose average. <5.7% optimal; 6-7% roughly doubles congenital-malformation risk.",
+      "cross_refs": [
+        "fasting-glucose",
+        "gestational-diabetes-mellitus",
+        "trimester-2:gdm-screening-window"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/hemoglobin.md",
+      "canonical_name": "hemoglobin",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "Hb"
+      ],
+      "summary": "Oxygen-transport protein. Pregnancy thresholds shift by trimester from hemodilution; <10.5 g/dL in T2 and <10 g/dL in T3 indicate anemia, not just dilution.",
+      "cross_refs": [
+        "iron",
+        "ferritin",
+        "transferrin-saturation",
+        "iron-panel-interpretation",
+        "ferritin-acute-phase-reactant-caveat",
+        "trimester-3:fetal-iron-store-window",
+        "pregnancy-optimal-vs-standard-ranges"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/holotranscobalamin.md",
+      "canonical_name": "holotranscobalamin",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "holoTC",
+        "active B12"
+      ],
+      "summary": "Bioavailable B12 (carrier-bound). >30 pmol/L functionally adequate.",
+      "cross_refs": [
+        "vitamin-b12",
+        "serum-b12",
+        "methylmalonic-acid",
+        "b12-decision-tree"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/homocysteine.md",
+      "canonical_name": "homocysteine",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "summary": "Methylation function indicator. >10 mcmol/L = functional impairment; >12 = pregnancy-loss risk.",
+      "cross_refs": [
+        "folate",
+        "vitamin-b12",
+        "vitamin-b6",
+        "rbc-folate",
+        "mthfr-c677t",
+        "mthfr-a1298c",
+        "one-carbon-metabolism-cycle",
+        "b12-decision-tree",
+        "methylmalonic-acid",
+        "serum-b12",
+        "serum-folate"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/methylmalonic-acid.md",
+      "canonical_name": "methylmalonic-acid",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "MMA"
+      ],
+      "summary": "Functional B12 marker. Elevated MMA = B12-enzyme function impaired even if serum B12 looks normal.",
+      "cross_refs": [
+        "vitamin-b12",
+        "serum-b12",
+        "holotranscobalamin",
+        "homocysteine",
+        "b12-decision-tree"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/rbc-folate.md",
+      "canonical_name": "rbc-folate",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "red blood cell folate"
+      ],
+      "summary": "Tissue folate status (~120-day window). >1050 nmol/L is the NTD-prevention threshold; reaching it requires ~20 weeks of intake.",
+      "cross_refs": [
+        "folate",
+        "serum-folate",
+        "homocysteine",
+        "trimester-1:neural-tube-closure-window",
+        "preconception:preconception-folate-window",
+        "pregnancy-optimal-vs-standard-ranges"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/serum-b12.md",
+      "canonical_name": "serum-b12",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "vitamin B12 level",
+        "cobalamin"
+      ],
+      "summary": "Serum cobalamin. Gray zone 200-400 needs holoTC + MMA backup.",
+      "cross_refs": [
+        "vitamin-b12",
+        "holotranscobalamin",
+        "methylmalonic-acid",
+        "homocysteine",
+        "b12-decision-tree"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/serum-folate.md",
+      "canonical_name": "serum-folate",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "summary": "Recent folate intake. Less informative than RBC folate; useful as a quick check.",
+      "cross_refs": [
+        "folate",
+        "rbc-folate",
+        "homocysteine"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/tpo-antibodies.md",
+      "canonical_name": "tpo-antibodies",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "TPO Ab",
+        "thyroid peroxidase antibodies"
+      ],
+      "summary": "Thyroid autoimmunity marker. Positive = 2x miscarriage risk and elevated postpartum-thyroiditis risk.",
+      "cross_refs": [
+        "tsh",
+        "free-t4",
+        "selenium",
+        "postpartum:postpartum-thyroiditis",
+        "thyroid-autoimmunity-and-pregnancy"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/transferrin-saturation.md",
+      "canonical_name": "transferrin-saturation",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "TSAT"
+      ],
+      "summary": "Functional iron availability. <20% indicates deficiency even when ferritin is normal.",
+      "cross_refs": [
+        "iron",
+        "ferritin",
+        "iron-panel-interpretation",
+        "hfe-genotype",
+        "ferritin-acute-phase-reactant-caveat",
+        "hemoglobin",
+        "iron-calcium-interaction",
+        "iron-oxidative-stress-mechanism"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/tsh.md",
+      "canonical_name": "tsh",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "thyroid stimulating hormone"
+      ],
+      "summary": "Pituitary thyroid signal. Trimester-specific ranges; pregnancy demand is ~50% higher than non-pregnant.",
+      "cross_refs": [
+        "free-t4",
+        "free-t3",
+        "tpo-antibodies",
+        "postpartum:postpartum-thyroiditis",
+        "iodine",
+        "pregnancy-optimal-vs-standard-ranges",
+        "selenium",
+        "iodine-narrow-margin",
+        "thyroid-autoimmunity-and-pregnancy"
+      ]
+    },
+    {
+      "file": "entities/lab_marker/urinary-iodine.md",
+      "canonical_name": "urinary-iodine",
+      "entity_kind": "lab_marker",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "spot urinary iodine"
+      ],
+      "summary": "Iodine adequacy proxy. Population-level value due to high individual variance.",
+      "cross_refs": [
+        "iodine",
+        "iodine-narrow-margin"
+      ]
+    },
+    {
+      "file": "entities/mechanism/iron-oxidative-stress-mechanism.md",
+      "canonical_name": "iron-oxidative-stress-mechanism",
+      "entity_kind": "mechanism",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "Fenton chemistry"
+      ],
+      "summary": "Free iron + H2O2 \u2192 hydroxyl radicals (Fenton). Hepcidin protects when stores are adequate; weekly dosing helps in prophylaxis.",
+      "cross_refs": [
+        "iron",
+        "ferritin",
+        "transferrin-saturation"
+      ]
+    },
+    {
+      "file": "entities/mechanism/placental-iron-prioritization.md",
+      "canonical_name": "placental-iron-prioritization",
+      "entity_kind": "mechanism",
+      "submodule_path": "prenatal",
+      "summary": "Placenta concentrates iron toward fetus. Fetus often spared at maternal expense.",
+      "cross_refs": [
+        "iron",
+        "ferritin",
+        "trimester-3:fetal-iron-store-window"
+      ]
+    },
+    {
+      "file": "entities/mechanism/vitamin-a-teratogenicity-mechanism.md",
+      "canonical_name": "vitamin-a-teratogenicity-mechanism",
+      "entity_kind": "mechanism",
+      "submodule_path": "prenatal",
+      "summary": "CYP26A1 saturation \u2192 supraphysiological retinoic acid \u2192 HOX disruption. Beta-carotene self-limiting.",
+      "cross_refs": [
+        "vitamin-a",
+        "pregnancy-upper-limits"
+      ]
+    },
+    {
+      "file": "entities/supplement/calcium.md",
+      "canonical_name": "calcium",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "summary": "Major mineral. Target 1000 mg/day total; citrate form preferred; interacts with iron.",
+      "cross_refs": [
+        "vitamin-d",
+        "iron",
+        "iron-calcium-interaction",
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients",
+        "magnesium",
+        "postpartum:maternal-depletion-syndrome",
+        "preeclampsia"
+      ]
+    },
+    {
+      "file": "entities/supplement/choline.md",
+      "canonical_name": "choline",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "summary": "Methyl donor for fetal brain development. Most under-dosed in prenatal multivitamins.",
+      "cross_refs": [
+        "folate",
+        "vitamin-b12",
+        "one-carbon-metabolism-cycle",
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients",
+        "vegan-vegetarian-pattern-implications"
+      ]
+    },
+    {
+      "file": "entities/supplement/folate.md",
+      "canonical_name": "folate",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "vitamin B9",
+        "methylfolate",
+        "5-MTHF",
+        "folinic acid",
+        "folic acid"
+      ],
+      "summary": "B-vitamin for one-carbon metabolism and neural tube closure. Form choice (methylfolate vs folic acid) is consequential, especially for MTHFR variants.",
+      "cross_refs": [
+        "rbc-folate",
+        "serum-folate",
+        "homocysteine",
+        "mthfr-c677t",
+        "mthfr-a1298c",
+        "one-carbon-metabolism-cycle",
+        "trimester-1:neural-tube-closure-window",
+        "choline",
+        "preconception:preconception-folate-window",
+        "supplement-form-bioavailability",
+        "vitamin-b12",
+        "vitamin-b6"
+      ]
+    },
+    {
+      "file": "entities/supplement/iodine.md",
+      "canonical_name": "iodine",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "summary": "Thyroid substrate. Narrowest pregnancy therapeutic window; most-sensitive breast-milk nutrient.",
+      "cross_refs": [
+        "urinary-iodine",
+        "tsh",
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients",
+        "pregnancy-upper-limits",
+        "iodine-narrow-margin"
+      ]
+    },
+    {
+      "file": "entities/supplement/iron.md",
+      "canonical_name": "iron",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "Fe",
+        "ferrous iron"
+      ],
+      "summary": "Essential mineral for hemoglobin, fetal iron stores, and oxygen transport. Form (bisglycinate vs sulfate) and dose calibration to ferritin matter.",
+      "cross_refs": [
+        "ferritin",
+        "hemoglobin",
+        "transferrin-saturation",
+        "iron-calcium-interaction",
+        "iron-oxidative-stress-mechanism",
+        "hfe-genotype",
+        "trimester-3:fetal-iron-store-window",
+        "calcium",
+        "iron-panel-interpretation",
+        "iron-vitamin-c-synergy",
+        "postpartum:maternal-depletion-syndrome",
+        "placental-iron-prioritization",
+        "pregnancy-upper-limits",
+        "supplement-form-bioavailability",
+        "zinc",
+        "vegan-vegetarian-pattern-implications"
+      ]
+    },
+    {
+      "file": "entities/supplement/magnesium.md",
+      "canonical_name": "magnesium",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "summary": "300-enzyme cofactor. Glycinate or malate; avoid oxide (~4% bioavailable).",
+      "cross_refs": [
+        "vitamin-d",
+        "calcium",
+        "supplement-form-bioavailability"
+      ]
+    },
+    {
+      "file": "entities/supplement/omega-3-dha.md",
+      "canonical_name": "omega-3-dha",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "DHA",
+        "docosahexaenoic acid"
+      ],
+      "summary": "Long-chain omega-3. T3 accretion peak; triglyceride form preferred.",
+      "cross_refs": [
+        "omega-3-epa",
+        "trimester-3:dha-accretion-peak-window",
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients",
+        "supplement-form-bioavailability",
+        "vegan-vegetarian-pattern-implications"
+      ]
+    },
+    {
+      "file": "entities/supplement/omega-3-epa.md",
+      "canonical_name": "omega-3-epa",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "EPA",
+        "eicosapentaenoic acid"
+      ],
+      "summary": "Anti-inflammatory omega-3. EPA-specific mood effect for postpartum depression.",
+      "cross_refs": [
+        "omega-3-dha",
+        "postpartum:postpartum-depression",
+        "vegan-vegetarian-pattern-implications"
+      ]
+    },
+    {
+      "file": "entities/supplement/selenium.md",
+      "canonical_name": "selenium",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "summary": "Thyroid-supporting mineral. Reduces postpartum thyroiditis in TPO+ patients.",
+      "cross_refs": [
+        "tpo-antibodies",
+        "tsh",
+        "postpartum:postpartum-thyroiditis",
+        "free-t3",
+        "thyroid-autoimmunity-and-pregnancy"
+      ]
+    },
+    {
+      "file": "entities/supplement/vitamin-a.md",
+      "canonical_name": "vitamin-a",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "retinol",
+        "retinyl palmitate",
+        "beta-carotene"
+      ],
+      "summary": "Fat-soluble vitamin essential for organogenesis. Retinol is teratogenic above ~10,000 IU; beta-carotene is self-limiting and safe.",
+      "cross_refs": [
+        "vitamin-a-teratogenicity-mechanism",
+        "pregnancy-upper-limits"
+      ]
+    },
+    {
+      "file": "entities/supplement/vitamin-b12.md",
+      "canonical_name": "vitamin-b12",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "cobalamin",
+        "methylcobalamin",
+        "cyanocobalamin"
+      ],
+      "summary": "Cobalamin. Required alongside folate for methylation and erythropoiesis. Methyl-form preferred.",
+      "cross_refs": [
+        "serum-b12",
+        "methylmalonic-acid",
+        "holotranscobalamin",
+        "homocysteine",
+        "folate",
+        "one-carbon-metabolism-cycle",
+        "b12-decision-tree",
+        "choline",
+        "supplement-form-bioavailability",
+        "vitamin-b6",
+        "vegan-vegetarian-pattern-implications"
+      ]
+    },
+    {
+      "file": "entities/supplement/vitamin-b6.md",
+      "canonical_name": "vitamin-b6",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "pyridoxine"
+      ],
+      "summary": "B6. Cofactor in methylation; T1 nausea use; UL 100 mg (neuropathy risk).",
+      "cross_refs": [
+        "folate",
+        "vitamin-b12",
+        "homocysteine",
+        "one-carbon-metabolism-cycle",
+        "pregnancy-upper-limits"
+      ]
+    },
+    {
+      "file": "entities/supplement/vitamin-d.md",
+      "canonical_name": "vitamin-d",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "cholecalciferol",
+        "D3",
+        "25-hydroxyvitamin-D"
+      ],
+      "summary": "Fat-soluble vitamin (functionally a hormone). Pregnancy and lactation have distinct dosing rationales \u2014 lactation 6,400 IU evidence makes breast-milk D adequate.",
+      "cross_refs": [
+        "25-oh-vitamin-d",
+        "lactation:lactation-vitamin-d-evidence",
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients",
+        "calcium",
+        "magnesium",
+        "preeclampsia",
+        "pregnancy-upper-limits"
+      ]
+    },
+    {
+      "file": "entities/supplement/zinc.md",
+      "canonical_name": "zinc",
+      "entity_kind": "supplement",
+      "submodule_path": "prenatal",
+      "summary": "Trace mineral. Most under-tracked postpartum depletion (87.5%).",
+      "cross_refs": [
+        "iron",
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients",
+        "postpartum:maternal-depletion-syndrome",
+        "vegan-vegetarian-pattern-implications"
+      ]
+    },
+    {
+      "file": "concepts/b12-decision-tree.md",
+      "canonical_name": "b12-decision-tree",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "B12 testing decision tree"
+      ],
+      "summary": "Tiered testing for B12: serum >400 replete; 200-400 gray zone needs holoTC and MMA; <200 deficient.",
+      "cross_refs": [
+        "serum-b12",
+        "holotranscobalamin",
+        "methylmalonic-acid",
+        "homocysteine",
+        "one-carbon-metabolism-cycle",
+        "pregnancy-optimal-vs-standard-ranges",
+        "vitamin-b12"
+      ]
+    },
+    {
+      "file": "concepts/ferritin-acute-phase-reactant-caveat.md",
+      "canonical_name": "ferritin-acute-phase-reactant-caveat",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "summary": "Ferritin distorted by inflammation. Use TSAT + clinical context to confirm in postpartum or autoimmune contexts.",
+      "cross_refs": [
+        "ferritin",
+        "transferrin-saturation",
+        "iron-panel-interpretation",
+        "hemoglobin",
+        "pregnancy-optimal-vs-standard-ranges"
+      ]
+    },
+    {
+      "file": "concepts/group-i-vs-group-ii-breast-milk-nutrients.md",
+      "canonical_name": "group-i-vs-group-ii-breast-milk-nutrients",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal:lactation",
+      "aliases": [
+        "breast milk nutrient classification",
+        "milk nutrient groups"
+      ],
+      "summary": "Group I (D, DHA, iodine, B-vitamins, choline, A/E/K) tracks maternal intake; Group II (calcium, iron, zinc, folate, copper) is preserved at maternal expense.",
+      "cross_refs": [
+        "postpartum:maternal-depletion-syndrome",
+        "lactation:lactation-vitamin-d-evidence",
+        "vitamin-d",
+        "omega-3-dha",
+        "iodine",
+        "calcium",
+        "choline",
+        "zinc"
+      ]
+    },
+    {
+      "file": "concepts/iodine-narrow-margin.md",
+      "canonical_name": "iodine-narrow-margin",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "iodine therapeutic window"
+      ],
+      "summary": "Concept. Iodine has the narrowest therapeutic window of any pregnancy nutrient. Recommended supplemental dose 150-250 mcg/day; UL 1100 mcg/day; values below ~100 mcg dietary intake produce maternal-fetal hypothyroxinemia, while values above the UL can induce thyroid dysfunction. Stay-within constraint applies on both sides, unlike most pregnancy nutrients where insufficiency is the main risk.",
+      "cross_refs": [
+        "iodine",
+        "urinary-iodine",
+        "tsh",
+        "pregnancy-upper-limits"
+      ]
+    },
+    {
+      "file": "concepts/iron-calcium-interaction.md",
+      "canonical_name": "iron-calcium-interaction",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "iron-calcium absorption competition"
+      ],
+      "summary": "Calcium reduces iron absorption 30-50% via shared transporters. Separate by 2+ hours when both are supplemented.",
+      "cross_refs": [
+        "iron",
+        "ferritin",
+        "transferrin-saturation",
+        "calcium",
+        "iron-vitamin-c-synergy"
+      ]
+    },
+    {
+      "file": "concepts/iron-panel-interpretation.md",
+      "canonical_name": "iron-panel-interpretation",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "summary": "Two-axis iron status: ferritin \u00d7 TSAT yields five distinct interpretations and actions.",
+      "cross_refs": [
+        "ferritin",
+        "transferrin-saturation",
+        "iron",
+        "ferritin-acute-phase-reactant-caveat",
+        "hfe-genotype",
+        "hemoglobin"
+      ]
+    },
+    {
+      "file": "concepts/iron-vitamin-c-synergy.md",
+      "canonical_name": "iron-vitamin-c-synergy",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "summary": "Vitamin C 3-4x iron absorption. Take iron with vitamin C, empty stomach.",
+      "cross_refs": [
+        "iron",
+        "ferritin",
+        "iron-calcium-interaction"
+      ]
+    },
+    {
+      "file": "concepts/lactation-vitamin-d-evidence.md",
+      "canonical_name": "lactation-vitamin-d-evidence",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal:lactation",
+      "summary": "Hollis 2015 RCT: 6,400 IU maternal vitamin D = adequate breast-milk D without direct infant supplementation.",
+      "cross_refs": [
+        "vitamin-d",
+        "25-oh-vitamin-d",
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients"
+      ]
+    },
+    {
+      "file": "concepts/maternal-depletion-syndrome.md",
+      "canonical_name": "maternal-depletion-syndrome",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal:postpartum",
+      "aliases": [
+        "postpartum depletion"
+      ],
+      "summary": "Cumulative postpartum depletion. Drives 18-24 month inter-pregnancy interval recommendation.",
+      "cross_refs": [
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients",
+        "iron",
+        "ferritin",
+        "zinc",
+        "calcium"
+      ]
+    },
+    {
+      "file": "concepts/one-carbon-metabolism-cycle.md",
+      "canonical_name": "one-carbon-metabolism-cycle",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "methylation cycle",
+        "folate-methionine cycle"
+      ],
+      "summary": "Folate-B12-B6-choline interdependent cycle. All four needed simultaneously for methylation function.",
+      "cross_refs": [
+        "folate",
+        "vitamin-b12",
+        "vitamin-b6",
+        "choline",
+        "homocysteine",
+        "mthfr-c677t",
+        "mthfr-a1298c",
+        "b12-decision-tree"
+      ]
+    },
+    {
+      "file": "concepts/pregnancy-optimal-vs-standard-ranges.md",
+      "canonical_name": "pregnancy-optimal-vs-standard-ranges",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "pregnancy-specific ranges",
+        "optimal vs population reference ranges"
+      ],
+      "summary": "Standard population reference ranges miss early deficiency and predictive markers in pregnancy. Domain-specific application of HC core's Threshold-as-Claim Discipline.",
+      "cross_refs": [
+        "ferritin",
+        "rbc-folate",
+        "tsh",
+        "25-oh-vitamin-d",
+        "hemoglobin",
+        "ferritin-acute-phase-reactant-caveat",
+        "b12-decision-tree"
+      ]
+    },
+    {
+      "file": "concepts/pregnancy-upper-limits.md",
+      "canonical_name": "pregnancy-upper-limits",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "pregnancy ULs"
+      ],
+      "summary": "Pregnancy-specific ULs. Vitamin A retinol and iodine are the most consequential margins.",
+      "cross_refs": [
+        "vitamin-a",
+        "iodine",
+        "iron",
+        "vitamin-d",
+        "vitamin-b6",
+        "vitamin-a-teratogenicity-mechanism",
+        "iodine-narrow-margin"
+      ]
+    },
+    {
+      "file": "concepts/supplement-form-bioavailability.md",
+      "canonical_name": "supplement-form-bioavailability",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "summary": "Form often matters more than label dose. Bioavailability varies by chemical form.",
+      "cross_refs": [
+        "folate",
+        "vitamin-b12",
+        "iron",
+        "magnesium",
+        "omega-3-dha"
+      ]
+    },
+    {
+      "file": "concepts/thyroid-autoimmunity-and-pregnancy.md",
+      "canonical_name": "thyroid-autoimmunity-and-pregnancy",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "TPO+ pregnancy",
+        "autoimmune thyroid pregnancy"
+      ],
+      "summary": "Concept. Thyroid autoantibodies (TPO antibodies, thyroglobulin antibodies) modulate pregnancy and postpartum thyroid risk independently of TSH status. Euthyroid TPO-positive patients carry approximately 2x miscarriage risk and elevated postpartum-thyroiditis risk. Selenium 200 mcg/day reduces postpartum-thyroiditis incidence in this population from ~48.6% to ~28.6%. Surveillance cadence: TSH and free T4 trimester-specific ranges; postpartum thyroid screen at 3 and 6 months.",
+      "cross_refs": [
+        "tpo-antibodies",
+        "tsh",
+        "free-t4",
+        "selenium",
+        "postpartum:postpartum-thyroiditis"
+      ]
+    },
+    {
+      "file": "concepts/vegan-vegetarian-pattern-implications.md",
+      "canonical_name": "vegan-vegetarian-pattern-implications",
+      "entity_kind": "concept",
+      "submodule_path": "prenatal",
+      "aliases": [
+        "plant-based prenatal nutrition"
+      ],
+      "summary": "Concept. Plant-based dietary patterns shift baseline nutrient adequacy in ways that affect pregnancy supplementation choices. Vegans require routine B12 supplementation (animal-product absent diet); choline intake tends to be lower (eggs and meat are top sources); long-chain omega-3 (DHA/EPA) requires algal supplementation (no direct intake from plant sources, and ALA conversion is limited and further reduced by some genetic variants); zinc and iron may require attention (plant sources have lower bioavailability with phytate inhibition); B6 and B2 are typically adequate.",
+      "cross_refs": [
+        "vitamin-b12",
+        "choline",
+        "omega-3-dha",
+        "omega-3-epa",
+        "iron",
+        "zinc"
+      ]
+    },
+    {
+      "file": "sources/2026-03-22-developmental-timeline.md",
+      "canonical_name": "2026-03-22-developmental-timeline",
+      "entity_kind": "source",
+      "submodule_path": "prenatal",
+      "summary": "Deep-research thread mapping fetal organogenesis to maternal nutrient demands and biological windows.",
+      "cross_refs": [
+        "folate",
+        "iron",
+        "iodine",
+        "choline",
+        "omega-3-dha",
+        "neural-tube-closure-window",
+        "fetal-iron-store-window",
+        "dha-accretion-peak-window",
+        "placental-iron-prioritization"
+      ]
+    },
+    {
+      "file": "sources/2026-03-22-evidence-quality.md",
+      "canonical_name": "2026-03-22-evidence-quality",
+      "entity_kind": "source",
+      "submodule_path": "prenatal",
+      "summary": "Deep-research thread applying multi-axis evidence evaluation to the prenatal-nutrition literature: RCT vs observational distinctions, supplement-industry regulation context, third-party testing meaning, formulation gaps.",
+      "cross_refs": []
+    },
+    {
+      "file": "sources/2026-03-22-individual-variance.md",
+      "canonical_name": "2026-03-22-individual-variance",
+      "entity_kind": "source",
+      "submodule_path": "prenatal",
+      "summary": "Deep-research thread on how individual variance modulates baseline nutrient status and supplementation response.",
+      "cross_refs": [
+        "mthfr-c677t",
+        "mthfr-a1298c",
+        "hfe-genotype",
+        "gestational-diabetes-mellitus",
+        "preeclampsia",
+        "vegan-vegetarian-pattern-implications",
+        "thyroid-autoimmunity-and-pregnancy"
+      ]
+    },
+    {
+      "file": "sources/2026-03-22-measurement-diagnostics.md",
+      "canonical_name": "2026-03-22-measurement-diagnostics",
+      "entity_kind": "source",
+      "submodule_path": "prenatal",
+      "summary": "Deep-research thread on pregnancy-specific optimal vs standard reference ranges, iron-panel interpretation, B12 decision tree, ferritin caveats, trimester-specific TSH ranges.",
+      "cross_refs": [
+        "ferritin",
+        "hemoglobin",
+        "transferrin-saturation",
+        "rbc-folate",
+        "serum-b12",
+        "methylmalonic-acid",
+        "holotranscobalamin",
+        "homocysteine",
+        "tsh",
+        "free-t4",
+        "tpo-antibodies",
+        "25-oh-vitamin-d",
+        "fasting-glucose",
+        "hba1c",
+        "urinary-iodine",
+        "pregnancy-optimal-vs-standard-ranges",
+        "ferritin-acute-phase-reactant-caveat",
+        "b12-decision-tree",
+        "iron-panel-interpretation"
+      ]
+    },
+    {
+      "file": "sources/2026-03-22-nutrient-biochemistry.md",
+      "canonical_name": "2026-03-22-nutrient-biochemistry",
+      "entity_kind": "source",
+      "submodule_path": "prenatal",
+      "summary": "Deep-research thread covering molecular mechanisms, active vs inactive nutrient forms, and bioavailability data per pregnancy nutrient.",
+      "cross_refs": [
+        "folate",
+        "vitamin-b12",
+        "iron",
+        "vitamin-d",
+        "choline",
+        "omega-3-dha",
+        "vitamin-a",
+        "magnesium",
+        "iodine",
+        "zinc",
+        "selenium",
+        "one-carbon-metabolism-cycle",
+        "supplement-form-bioavailability"
+      ]
+    },
+    {
+      "file": "sources/2026-03-22-postpartum-lactation.md",
+      "canonical_name": "2026-03-22-postpartum-lactation",
+      "entity_kind": "source",
+      "submodule_path": "prenatal:postpartum",
+      "summary": "Deep-research thread on maternal depletion patterns, breast milk nutrient classification (Group I vs Group II), lactation-specific dosing, postpartum thyroiditis cadence, and recovery timelines.",
+      "cross_refs": [
+        "postpartum:postpartum-thyroiditis",
+        "postpartum:postpartum-depression",
+        "lactation:group-i-vs-group-ii-breast-milk-nutrients",
+        "postpartum:maternal-depletion-syndrome",
+        "lactation:lactation-vitamin-d-evidence"
+      ]
+    },
+    {
+      "file": "sources/2026-03-22-safety-dose-response.md",
+      "canonical_name": "2026-03-22-safety-dose-response",
+      "entity_kind": "source",
+      "submodule_path": "prenatal",
+      "summary": "Deep-research thread covering teratogenicity mechanisms, pregnancy-specific upper limits, oxidative-stress dose-response, and narrow-margin nutrients.",
+      "cross_refs": [
+        "vitamin-a",
+        "iron",
+        "iodine",
+        "vitamin-d",
+        "vitamin-b6",
+        "vitamin-a-teratogenicity-mechanism",
+        "iron-oxidative-stress-mechanism",
+        "pregnancy-upper-limits",
+        "iodine-narrow-margin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "health-charted/prenatal-profile",
+  "title": "Health Charted Prenatal Profile",
+  "description": "Pregnancy-specific profile data: gestational age, phase, conception and due dates, gravidity, parity, prior pregnancy outcomes, dietary pattern relevant to prenatal nutrition, genetic variants relevant to prenatal supplementation, and breastfeeding state.",
+  "type": "object",
+  "properties": {
+    "_type": {
+      "const": "health-charted/prenatal-profile",
+      "description": "File type identifier"
+    },
+    "current_phase": {
+      "type": ["string", "null"],
+      "enum": [null, "preconception", "trimester-1", "trimester-2", "trimester-3", "postpartum", "lactation"],
+      "description": "Current submodule phase. Derive from gestational_age_weeks for active pregnancies; set explicitly for postpartum/lactation."
+    },
+    "phase_set_date": {
+      "type": ["string", "null"],
+      "description": "ISO date when current_phase was last updated. Used for phase-transition detection."
+    },
+    "conception_date": {
+      "type": ["string", "null"],
+      "description": "Estimated or known conception date (ISO). Used to compute gestational_age_weeks."
+    },
+    "lmp_date": {
+      "type": ["string", "null"],
+      "description": "Last menstrual period start date (ISO). Alternate gestational age basis when conception date is unknown."
+    },
+    "due_date": {
+      "type": ["string", "null"],
+      "description": "Estimated due date (ISO), 40 weeks from LMP or 38 weeks from conception. May be adjusted by ultrasound."
+    },
+    "gestational_age_weeks": {
+      "type": ["number", "null"],
+      "description": "Computed weekly. Used to derive current_phase for active pregnancies and to surface biological-window proximity."
+    },
+    "gravidity": {
+      "type": ["integer", "null"],
+      "description": "Total number of pregnancies (including current)."
+    },
+    "parity": {
+      "type": ["integer", "null"],
+      "description": "Number of pregnancies carried to viability."
+    },
+    "prior_pregnancy_outcomes": {
+      "type": "array",
+      "description": "History of prior pregnancies. May affect current pregnancy risk stratification and supplementation priorities.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "year": { "type": ["string", "integer", "null"] },
+          "outcome": { "type": ["string", "null"], "description": "live birth, miscarriage, stillbirth, ectopic, termination, etc." },
+          "gestational_age_at_outcome_weeks": { "type": ["number", "null"] },
+          "complications": { "type": ["string", "null"] },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "dietary_pattern": {
+      "type": ["string", "null"],
+      "description": "omnivore, pescatarian, vegetarian, vegan, etc. Affects nutrient adequacy assessment (B12, iron, choline, omega-3, etc.)."
+    },
+    "genetic_variants": {
+      "type": "array",
+      "description": "Variants relevant to prenatal supplementation (folate metabolism, methylation, etc.).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "gene": { "type": "string", "description": "Canonical gene name (e.g., MTHFR)" },
+          "variant": { "type": "string", "description": "Variant identifier (e.g., C677T, A1298C)" },
+          "genotype": { "type": ["string", "null"], "description": "Wild-type, heterozygous, homozygous" },
+          "source": { "type": ["string", "null"], "description": "Test or report source if known" }
+        }
+      }
+    },
+    "breastfeeding": {
+      "type": "object",
+      "description": "Breastfeeding state when current_phase is lactation or recent postpartum.",
+      "properties": {
+        "status": {
+          "type": ["string", "null"],
+          "enum": [null, "exclusive", "mixed", "weaning", "weaned", "not-applicable"],
+          "description": "Current breastfeeding status."
+        },
+        "start_date": { "type": ["string", "null"] },
+        "end_date": { "type": ["string", "null"] },
+        "supply_concerns": { "type": ["string", "null"] }
+      }
+    },
+    "phase_transition_log": {
+      "type": "array",
+      "description": "Append-only history of phase transitions. Useful for trajectory analysis and reassessment cadence.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "from_phase": { "type": ["string", "null"] },
+          "to_phase": { "type": "string" },
+          "date": { "type": "string", "description": "ISO date of transition" },
+          "trigger": { "type": ["string", "null"], "description": "What prompted the transition (gestational age threshold, birth, weaning, etc.)" }
+        }
+      }
+    },
+    "notes": {
+      "type": ["string", "null"],
+      "description": "Free-text notes the user wants captured at the profile level."
+    }
+  },
+  "required": ["_type"]
+}

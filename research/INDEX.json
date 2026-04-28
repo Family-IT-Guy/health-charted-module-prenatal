@@ -1,0 +1,75 @@
+{
+  "_type": "health-charted/research-index",
+  "files": [
+    {
+      "file": "raw/01-developmental-timeline.md",
+      "topic": "Developmental timeline of fetal organ formation mapped to maternal nutrient demands",
+      "summary": "Maps fetal organogenesis to nutrient-dependent windows: neural tube closure, placental iron prioritization, brain DHA accretion, fetal iron store building. Covers the biology behind why timing matters across phases.",
+      "when_to_reference": "Phase transitions; explaining why a given nutrient is critical at a specific gestational age; biological-window rationale for measurement and supplementation cadence.",
+      "entities": {
+        "biological_window": ["neural-tube-closure-window", "fetal-iron-store-window", "dha-accretion-peak-window"],
+        "supplement": ["folate", "iron", "iodine", "choline", "omega-3-dha"],
+        "mechanism": ["placental-iron-prioritization", "iodine-thyroid-axis"]
+      }
+    },
+    {
+      "file": "raw/02-nutrient-biochemistry.md",
+      "topic": "Molecular mechanisms and bioavailable forms of pregnancy nutrients",
+      "summary": "Per-nutrient biochemistry: pathway position, active vs inactive forms, bioavailability data, and why supplement form matters. Covers folate forms (methylfolate vs folic acid), B12 forms, iron forms (bisglycinate vs sulfate), vitamin D forms, vitamin A forms (retinol vs beta-carotene), magnesium forms.",
+      "when_to_reference": "When evaluating supplement form preferences, explaining 'why this form over that form,' or interpreting why one product may underperform another at the same nominal dose.",
+      "entities": {
+        "supplement": ["folate", "vitamin-b12", "iron", "vitamin-d", "choline", "omega-3-dha", "vitamin-a", "magnesium", "iodine", "zinc", "selenium"],
+        "concept": ["one-carbon-metabolism-cycle", "supplement-form-bioavailability"]
+      }
+    },
+    {
+      "file": "raw/03-measurement-diagnostics.md",
+      "topic": "Lab markers and diagnostic interpretation in pregnancy with optimal-vs-standard ranges",
+      "summary": "Marker-by-marker analysis of pregnancy lab interpretation: optimal vs standard reference ranges, evidence behind functional cutoffs, iron-panel interpretation matrix, B12 decision tree, ferritin acute-phase-reactant caveat, trimester-specific TSH ranges.",
+      "when_to_reference": "Interpreting any lab result during pregnancy or lactation. Explaining why a value within standard 'normal' range may be inadequate for pregnancy. Building a recheck cadence.",
+      "entities": {
+        "lab_marker": ["ferritin", "hemoglobin", "transferrin-saturation", "rbc-folate", "serum-b12", "methylmalonic-acid", "holotranscobalamin", "homocysteine", "tsh", "free-t4", "tpo-antibodies", "25-oh-vitamin-d", "fasting-glucose", "hba1c", "urinary-iodine"],
+        "concept": ["pregnancy-optimal-vs-standard-ranges", "ferritin-acute-phase-reactant-caveat", "b12-decision-tree"]
+      }
+    },
+    {
+      "file": "raw/04-individual-variance.md",
+      "topic": "Genetic variants, dietary patterns, and pre-existing conditions affecting prenatal nutrition",
+      "summary": "How individual variance modulates baseline nutrient status and supplementation response: MTHFR variants and folate metabolism, HFE variants and iron, vegan/vegetarian implications, comorbidity interactions (autoimmune thyroid, GDM risk, preeclampsia history).",
+      "when_to_reference": "When the user has a known genetic variant, follows a restrictive diet, or has a pre-existing condition that may modulate prenatal supplementation needs.",
+      "entities": {
+        "genetic_variant": ["mthfr-c677t", "mthfr-a1298c", "hfe-genotype"],
+        "condition": ["gestational-diabetes-mellitus", "preeclampsia", "thyroid-autoimmunity"]
+      }
+    },
+    {
+      "file": "raw/05-safety-dose-response.md",
+      "topic": "Supplement upper limits, teratogenicity, and dose-response in pregnancy",
+      "summary": "Pregnancy-specific upper limits, teratogenicity mechanisms (vitamin A retinol), iron oxidative stress (Fenton chemistry), iodine narrow margin, vitamin D toxicity threshold, B6 neuropathy threshold, dose-response evidence per nutrient.",
+      "when_to_reference": "When evaluating any supplement dose against safety, when the user asks 'is this too much,' when checking a product label against pregnancy ULs, when evaluating retinol-form vitamin A in skincare or supplements.",
+      "entities": {
+        "mechanism": ["vitamin-a-teratogenicity-mechanism", "iron-oxidative-stress-mechanism"],
+        "concept": ["pregnancy-upper-limits", "iodine-narrow-margin"]
+      }
+    },
+    {
+      "file": "raw/06-postpartum-lactation.md",
+      "topic": "Postpartum maternal recovery and lactation-phase nutrient supplementation",
+      "summary": "Maternal depletion patterns by nutrient, Group I (diet-dependent) vs Group II (diet-independent) breast milk classification, lactation-specific dosing (vitamin D 6,400 IU evidence, EPA for postpartum mood), postpartum thyroiditis screening cadence, hemoglobin recovery timeline.",
+      "when_to_reference": "Postpartum and lactation phases; explaining why lactation requires different vitamin D dosing than pregnancy; postpartum mood/mental-health connections to micronutrient status; recovery-timeline expectations after weaning.",
+      "entities": {
+        "concept": ["group-i-vs-group-ii-breast-milk-nutrients", "maternal-depletion-syndrome", "lactation-vitamin-d-evidence"],
+        "condition": ["postpartum-thyroiditis", "postpartum-depression"]
+      }
+    },
+    {
+      "file": "raw/07-evidence-quality.md",
+      "topic": "Evidence-quality assessment of prenatal nutrient research",
+      "summary": "How to evaluate evidence quality across the prenatal-nutrition literature: RCT vs observational distinctions, supplement industry regulation context, third-party testing meaning and limits, product formulation gaps. Applies HC's multi-axis evidence framework to this domain.",
+      "when_to_reference": "When the user asks 'how strong is the evidence on X,' when evaluating a supplement product claim, or when applying HC's epistemic-discipline rules to prenatal-specific research.",
+      "entities": {
+        "concept": []
+      }
+    }
+  ]
+}

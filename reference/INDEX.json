@@ -1,0 +1,69 @@
+{
+  "_type": "health-charted/reference-index",
+  "files": [
+    {
+      "file": "optimal-ranges.md",
+      "topic": "Pregnancy-specific lab marker optimal ranges (vs standard population reference ranges)",
+      "summary": "Tier 1 essential markers (hemoglobin, ferritin, RBC folate, B12 with MMA backup, 25-OH vitamin D, TSH, TPO antibodies, homocysteine, glucose/HbA1c, urinary iodine) with pregnancy-optimal cutoffs and the evidence behind each cutoff. Tier 2 conditional markers. Combined iron-panel interpretation matrix. Ferritin acute-phase-reactant caveat. B12 decision tree.",
+      "when_to_reference": "Interpreting any lab result during pregnancy or lactation. Building a recheck cadence. Explaining why a value within standard 'normal' range may be inadequate for pregnancy.",
+      "entities": {
+        "lab_marker": ["ferritin", "hemoglobin", "transferrin-saturation", "rbc-folate", "serum-b12", "methylmalonic-acid", "holotranscobalamin", "homocysteine", "tsh", "free-t4", "tpo-antibodies", "25-oh-vitamin-d", "fasting-glucose", "hba1c", "urinary-iodine"],
+        "concept": ["pregnancy-optimal-vs-standard-ranges", "ferritin-acute-phase-reactant-caveat", "b12-decision-tree", "iron-panel-interpretation"],
+        "genetic_variant": ["mthfr-c677t", "mthfr-a1298c", "hfe-genotype"]
+      }
+    },
+    {
+      "file": "phase-guide.md",
+      "topic": "Six-phase pregnancy taxonomy with measurement schedules and biological-window context",
+      "summary": "Phase definitions (preconception, T1, T2, T3, postpartum, lactation) with key biology and transition triggers. Per-phase measurement schedule. Trimester-specific TSH ranges. Why preconception starts 5-6 months before trying (RBC folate kinetics).",
+      "when_to_reference": "When the user reports a phase change, when establishing a measurement cadence, when explaining why timing of supplementation matters relative to a biological window.",
+      "entities": {
+        "biological_window": ["neural-tube-closure-window", "gdm-screening-window", "fetal-iron-store-window", "dha-accretion-peak-window"],
+        "lab_marker": ["ferritin", "hemoglobin", "tsh", "25-oh-vitamin-d", "rbc-folate"]
+      }
+    },
+    {
+      "file": "timing-rules.md",
+      "topic": "Clinically meaningful nutrient interactions and a daily timing template",
+      "summary": "Inhibitory interactions (iron-calcium, iron-zinc, iron-magnesium, levothyroxine-iron, levothyroxine-calcium) and synergistic interactions (iron-vitamin C, vitamin D-calcium, folate-B12-B6) with evidence quality. Practical daily timing template separating iron from prenatal multi.",
+      "when_to_reference": "When the user has multiple supplements and timing/separation is in question. When troubleshooting absorption (e.g., iron not budging despite supplementation).",
+      "entities": {
+        "concept": ["iron-calcium-interaction"],
+        "supplement": ["iron", "folate", "vitamin-b12", "vitamin-d", "calcium", "magnesium", "omega-3-dha", "choline"]
+      }
+    },
+    {
+      "file": "supplement-forms.md",
+      "topic": "Per-nutrient preferred forms with bioavailability rationale, plus a product evaluation checklist",
+      "summary": "Form-specific recommendations for folate (methylfolate vs folic acid), iron (bisglycinate vs sulfate), B12 (methyl- vs cyano-), vitamin D (D3 vs D2), vitamin A (beta-carotene vs retinol), calcium (citrate vs carbonate), magnesium (glycinate vs oxide), omega-3 (triglyceride vs ester), choline, iodine, selenium. Six-step product evaluation checklist.",
+      "when_to_reference": "When evaluating a specific supplement product, when the user asks 'why this form over that form,' when troubleshooting why one product underperforms another at the same nominal dose.",
+      "entities": {
+        "supplement": ["folate", "iron", "vitamin-b12", "vitamin-d", "vitamin-a", "calcium", "magnesium", "omega-3-dha", "choline", "iodine", "selenium"],
+        "concept": ["supplement-form-bioavailability"]
+      }
+    },
+    {
+      "file": "safety-rules.md",
+      "topic": "Pregnancy supplementation safety tiers, ULs, and serious-care nutrients",
+      "summary": "Tier 1 broadly safe (methylfolate, vitamin D3, DHA, choline). Tier 2 measure first (iron, B12, iodine, calcium). Tier 3 serious care (retinol-form vitamin A teratogenicity, high-dose iron without deficiency, high-dose iodine, high-dose B6). Pregnancy-specific UL table.",
+      "when_to_reference": "When evaluating any dose against safety. When the user asks 'is this too much.' When checking a product label against pregnancy ULs. When evaluating retinol-form vitamin A in skincare.",
+      "entities": {
+        "mechanism": ["vitamin-a-teratogenicity-mechanism", "iron-oxidative-stress-mechanism"],
+        "concept": ["pregnancy-upper-limits", "iodine-narrow-margin"],
+        "supplement": ["vitamin-a", "iron", "iodine", "vitamin-d", "vitamin-b6"]
+      }
+    },
+    {
+      "file": "postpartum-guide.md",
+      "topic": "Postpartum depletion patterns, breast-milk nutrient classification, and lactation-specific supplementation",
+      "summary": "Group I (diet-dependent, milk tracks intake) vs Group II (diet-independent, mother depletes) breast-milk nutrient classes. Postpartum deficiency rates by nutrient (zinc 87.5% most depleted). Lactation-specific dosing (vitamin D 6,400 IU evidence, EPA for postpartum mood, selenium for TPO+ thyroiditis prevention). Postpartum mental-health connections. Recovery timeline by nutrient.",
+      "when_to_reference": "Postpartum and lactation submodule engagement. When user concerns include mood/mental health postpartum. When planning inter-pregnancy interval. Breastfeeding adequacy questions.",
+      "entities": {
+        "concept": ["group-i-vs-group-ii-breast-milk-nutrients", "maternal-depletion-syndrome", "lactation-vitamin-d-evidence"],
+        "condition": ["postpartum-thyroiditis", "postpartum-depression"],
+        "supplement": ["vitamin-d", "omega-3-dha", "iron", "iodine", "selenium", "zinc", "choline"],
+        "lab_marker": ["ferritin", "hemoglobin", "tsh", "tpo-antibodies"]
+      }
+    }
+  ]
+}
